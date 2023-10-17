@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana;
+  background: #3a4e82;
+  color: #c6cde3;;
+  font-size: 40px;
+}
+span {
+  display: inline-block;
+  padding: 6px 6px 4px;
+  border-radius: 3px;
+  background: #a2adcb;
+  margin-right: 3px;
+}
+.center {
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.message {
+  font-size: 22px;
+}
+.footer {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.left {
+  text-align: left;
+  width: 80%;
+  margin: 40px auto;
+}
+a {
+  color: #c6cde3;
+}
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
