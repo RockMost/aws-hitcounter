@@ -1,9 +1,9 @@
 variable "name" {
-  description = "Name of application"
-  default     = "demo1"
+  description = "Visitor_counter"
+  default     = "counter"
 }
 variable "env" {
-  description = "Environment name"
+  description = "Visitor_counter"
   default     = "hitc"
 }
 locals {

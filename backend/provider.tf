@@ -9,14 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "YOUR_CLI_PROFILE"
+
   region  = "us-east-1"
   alias   = "us-east-1"
-}
-provider "aws" {
-  profile = "YOUR_CLI_PROFILE"
-  region  = "us-west-1"
-  default_tags {
-    tags = { Name = var.name }
-  }
 }
